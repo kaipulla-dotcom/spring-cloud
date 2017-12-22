@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: app-server
+
+server:
+  port: 8082
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone: http://192.168.0.7:8761/
+  instance:
+    hostname: localhost
