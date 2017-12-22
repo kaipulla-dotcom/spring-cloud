@@ -1,0 +1,6 @@
+applications:
+-  name: spring-boot-tamil
+   path: target/spring-boot-0.0.1-SNAPSHOT.jar
+   domain: cfapps.io
+   memory: 712MB
+   instances: 1
